@@ -1,0 +1,26 @@
+//react query
+it gives a hook useMutation so that we dont have to take care of error success and pending state
+make api fetch easier 
+//axios 
+for fetchikng api request
+//formik
+Keep Track of Form Information:
+
+Imagine each input field (like a text box for a username or email) is like a box where users put their information. Formik helps you keep track of what's in those boxes.
+Make Sure the Information is Right:
+
+Sometimes, you want to make sure users put the correct information. For example, you don't want them to leave the email box empty or type in something that's not a real email. Formik helps you set up rules to check if the information is correct.
+Handle When Users Submit the Form:
+
+When users press the submit button, Formik helps you do something with the information they provided. Maybe you want to send it to a server or show a message saying, "Thanks for signing up!" Formik helps with that process.
+Show Errors When Something Goes Wrong:
+
+If users make a mistake, like leaving the username box empty, Formik helps you show a friendly message saying, "Oops, you forgot your username!" It makes error messages easy.
+No More Writing Lots of Code:
+
+Formik gives you special tools (like Field and Form) to set up your form without writing a ton of complicated code. It's like having helpers that do a lot of the work for you.
+
+//yup
+mainly used for validation that if the information provided by user id corrrect or not
+//mutation.mutate
+send the request to api
